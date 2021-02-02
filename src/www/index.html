@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700|Karla|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Todoey</title>
+</head>
+
+<body onload="getTodos()">
+    <h1>todoey</h1>
+    <input type="text" id="todo-input" placeholder="Add your todo...">
+    <button onclick="createTodo()" class="add-button">add</button>
+    
+    <!-- <button onclick="getTodos()" class="add-button">Get Todos</button> -->
+    
+    
+    
+    <ul id="todo-list">
+        <div class="container"></div>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+h1{
+    text-align: left;
+    font-size: 80px;
+    margin-left: 36%;
+    color: rgb(71, 71, 71);
+    font-family: 'Abril Fatface';
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.close {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    color: rgb(173, 173, 173);
+}
+
+.close:hover {
+    cursor: pointer;
+    color: #30CFD0;
+}
+
+ul{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul li{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    background-color: white;
+    margin-bottom: 8px;
+    list-style-type: none;
+    margin-left: 28%;
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input{
+    width: 25.5%;
+    padding: 20px 20px 20px 20px;
+    margin-left: 29.5%;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 18px;
+    outline: none;
+}
+
+ul li:hover{
+    background-color: #b4e2e2;
+    background: linear-gradient(to right, #30CFD0, #198aa7 70%);
+    color: white;
+}
+
+.isCheckedtrue {
+    text-decoration: line-through;
+    background-color: #3debeb;
+    background: linear-gradient(to right, #30CFD0, #198aa7 70%);
+    color: white;
+
+}
+
+
+.add-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.add-button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right, #30CFD0, #198aa7 70%);
+    color: white;
+    
+    
+}
+
+.container{
+    background-color: red;
+}
